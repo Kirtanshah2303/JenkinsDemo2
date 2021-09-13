@@ -10,4 +10,9 @@ public class Controller {
     public String demo(){
         return "Hello World";
     }
+
+    @GetMapping("/Demo")
+    public String Demo(){
+        return "This is updated Code in /Demo path";
+    }
 }
