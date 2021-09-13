@@ -15,9 +15,4 @@ public class Controller {
     public String Demo(){
         return "This is updated Code in /Demo path";
     }
-
-    @GetMapping("/Demo1")
-    public String Demo1(){
-        return "I will Delete this route in 10 mins so take a note of this";
-    }
 }
