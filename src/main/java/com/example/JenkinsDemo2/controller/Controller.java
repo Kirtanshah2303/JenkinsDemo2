@@ -18,6 +18,6 @@ public class Controller {
 
     @GetMapping("/Demo1")
     public String Demo1(){
-        return "This is updated Code in /Demo1 path";
+        return "I will Delete this route in 10 mins so take a note of this";
     }
 }
