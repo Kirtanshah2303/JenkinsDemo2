@@ -18,6 +18,6 @@ public class Controller {
 
     @GetMapping("/temp")
     public String temp(){
-        return "This is for AWS and Jenkins demo only..";
+        return "I will delete this path in 5 mins";
     }
 }
